@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class String_Examples {
     public static void main(String[] args) {
        String text1 = "This is text example";
@@ -64,5 +65,19 @@ public class String_Examples {
         System.out.println(Float.parseFloat(floatValue));
         System.out.println(Boolean.parseBoolean(doubleValue));
         System.out.println(Long.parseLong(longValue));
+
+        //Test comment
+
+        //Trim method
+        System.out.println("       This is test     ".trim());
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please, enter password (qwert*)");
+        String pswd = scanner.nextLine().trim();
+
+        if(pswd.equals("qwerty")){
+            System.out.println("Password is correct");
+        }else {
+            System.out.println("Incorrect password");
+        }
     }
 }
