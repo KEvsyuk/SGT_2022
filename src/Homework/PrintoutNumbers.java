@@ -1,7 +1,7 @@
 package Homework;
 
 import java.util.Scanner;
-public class Printout {
+public class PrintoutNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, enter the number");

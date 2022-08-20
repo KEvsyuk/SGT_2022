@@ -1,3 +1,5 @@
+package basics;
+
 public class Char_example {
     public static void main(String[] args) {
 
