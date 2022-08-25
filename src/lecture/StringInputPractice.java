@@ -20,8 +20,10 @@ public class StringInputPractice {
         }else{
             System.out.println("Adult");
         }
-
-
+// to add one string to another we can use the concat method:
+        //String finalText2 = text3.concat(text4);
+// to replace something:
+        //text.replaceAll("what you want to replace", "with what to replace for");
 
     }
 }
