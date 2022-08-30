@@ -1,16 +1,30 @@
-/*package Homework.MaximumDistance;
+package Homework.MaximumDistance;
 
 public abstract class Vehicle {
-    private int fuel;
-    private int fuelUsage;
+
+
+    //Fields
+    private float fuel;
+    private double fuelUsage;
     private int passengers;
-    //Creating of fields
 
-    public abstract void printVehicleInfo();
-    public Pet(String color, String eat, String place, int age){
-        this.color = color;
-        this.eat = eat;
-        this.place = place;
-        this.age = age;
 
- */
+
+    //Setter methods
+    public void setFuel(){
+        fuel = 1600;
+    }
+    public void setPassengers() {
+        passengers = 4;
+    }
+    //fuel usage is in liters/100km
+    public void setFuelUsage() {
+        fuelUsage = 3;
+        if(passengers > 0){
+            fuelUsage = fuelUsage*passengers*1.05;
+
+
+        }
+    }
+
+}
