@@ -12,11 +12,10 @@ import java.util.Scanner;
             if (Objects.equals(version.toLowerCase(), "first")) {
 
                 System.out.println("Player 1, enter your input");
-                String player1 = scanner.nextLine();
-                player1.toLowerCase();
+                String player1 = scanner.nextLine().toLowerCase();
+
                 System.out.println("Player 2, enter your input");
-                String player2 = scanner.nextLine();
-                player2.toLowerCase();
+                String player2 = scanner.nextLine().toLowerCase();
 
                 if (((player1.equals("rock") && player2.equals("paper"))) || (player1.equals("paper") && player2.equals("scissors"))
                         || (player1.equals("scissors") && player2.equals("rock"))){
@@ -33,11 +32,11 @@ import java.util.Scanner;
             if (Objects.equals(version, "second")) {
 
                 System.out.println("Player 1, enter your input");
-                String player1 = scanner.nextLine();
-                player1.toLowerCase();
+                String player1 = scanner.nextLine().toLowerCase();
+
                 System.out.println("Player 2, enter your input");
-                String player2 = scanner.nextLine();
-                player2.toLowerCase();
+                String player2 = scanner.nextLine().toLowerCase();
+
 
                 if (((player1.equals("rock") && player2.equals("paper"))) || (player1.equals("paper") && player2.equals("scissors"))
                         || (player1.equals("scissors") && player2.equals("rock"))
